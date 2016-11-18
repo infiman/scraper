@@ -1,0 +1,11 @@
+<%=
+  react_component(
+    'ScraperApp',
+    id: 'scraper-app',
+    trace: false,
+    replay_console: true,
+    props: { csrf: @csrf },
+    prerender: false,
+    raise_on_prerender_error: false,
+  )
+%>
